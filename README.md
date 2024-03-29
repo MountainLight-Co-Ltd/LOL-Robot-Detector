@@ -12,8 +12,8 @@ The LOL-Robot-Detector is a tool designed to identify and analyze cheating behav
 
 1. **Data Preparation**: Use `cursurDetector.py` to read the mouse positions of your raw videos.
 2. **Anomaly Detection**: Use 'analyzer.py' to investigate your raw mouse positions using existing models.
-3*. **Train your own model**: If you wanna train your own model, use the 'dataModifier.py' to extract the features of your raw mouse positions and use 'universal_scaler' to standrize them. Then you can use 'modelTrainer.py' to train your own model.
-4*. **Tip1**: Make sure you are consistently using 1080p, 30fps videos.
+3. **Train your own model**: If you wanna train your own model, use the 'dataModifier.py' to extract the features of your raw mouse positions and use 'universal_scaler' to standrize them. Then you can use 'modelTrainer.py' to train your own model.
+4. **Tip1**: Make sure you are consistently using 1080p, 30fps videos.
 
 ## Contacts
 
