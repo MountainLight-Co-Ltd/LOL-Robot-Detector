@@ -6,7 +6,7 @@ from joblib import load
 source_dir = 'mouse_positions'
 target_dir = 'ready_for_training'
 universal_scaler_filename = 'universal_scaler.joblib'
-sequence_length = 30
+sequence_length = 10
 
 if not os.path.exists(target_dir):
     os.makedirs(target_dir)
