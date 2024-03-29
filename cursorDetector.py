@@ -71,13 +71,13 @@ def process_videos(model_path, record_video, record_csv, selected_videos):
 def select_files():
     root = tk.Tk()
     root.withdraw()  # Hide the main window
-    file_paths = filedialog.askopenfilenames(title='Select Video Files')  # Show the file selection dialog
+    file_paths = filedialog.askopenfilenames(title='Select Video Files')
     return list(file_paths)
 
 record_video = input("Do you want the boxed videos? (y/n): ").lower() == 'y'
 record_csv = input("Do you want the mouse positions? (y/n): ").lower() == 'y'
 
-selected_videos = select_files()  # Use the file selection dialog to select videos
+selected_videos = select_files()
 
 os.makedirs('processed_videos', exist_ok=True)
 os.makedirs('mouse_positions', exist_ok=True)
