@@ -15,8 +15,8 @@ Once Git LFS is installed, you can clone the repository as usual, and the large 
 
 ## 2024/3/30 Updates:
 If you cannot clone the Yolo models, please use the following Google Drive links for model downloading.
-cursorDetector_n.pt: https://drive.google.com/file/d/1FN_Xfey1k--QKS9_ps5i_YDrvEmx2KdK/view?usp=sharing
-cursorDetector_x.pt: https://drive.google.com/file/d/1FZULNgxbfAVGk-93SG9VJF7XcLAKwo82/view?usp=sharing
+1. cursorDetector_n.pt: https://drive.google.com/file/d/1FN_Xfey1k--QKS9_ps5i_YDrvEmx2KdK/view?usp=sharing
+2. cursorDetector_x.pt: https://drive.google.com/file/d/1FZULNgxbfAVGk-93SG9VJF7XcLAKwo82/view?usp=sharing
 
 ## Usage
 
