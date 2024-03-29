@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+tensorflow
+keras
+opencv-python
+Pillow
+ultralytics
+matplotlib
+joblib
