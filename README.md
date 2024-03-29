@@ -4,8 +4,13 @@ The LOL-Robot-Detector is a tool designed to identify and analyze cheating behav
 
 ## Installation
 
-1. Clone this repository to your local machine.
-2. Ensure Python 3.x is installed.
+This project uses Git LFS to manage large files, such as the neural network models `cursorDetector_n.pt` and `cursorDetector_x.pt`. Before cloning the repository or pulling updates, ensure Git LFS is installed on your system:
+
+1. Download and install Git LFS from [https://git-lfs.github.com/](https://git-lfs.github.com/).
+2. Set up Git LFS for your user account by running `git lfs install` in your terminal.
+
+Once Git LFS is installed, you can clone the repository as usual, and the large files will be automatically handled by Git LFS.
+
 3. Install the required dependencies by running `pip install -r requirements.txt` from the root directory of the project.
 
 ## Usage
